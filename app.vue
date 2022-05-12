@@ -23,7 +23,7 @@
       <div class="w-full">
         <nav class="flex items-center justify-between max-w-screen-lg mx-auto py-3">
           <div>
-            <a href="#" class="text-lg font-bold tracking-widest font-poppins">MaskerApps</a>
+            <router-link to="/"  class="text-lg font-bold tracking-widest font-poppins" v-on:click="changeActive('Home')">MaskerApps</router-link>
           </div>
           <ul class="flex items-center space-x-8">
             <li v-for="menu in menus"
