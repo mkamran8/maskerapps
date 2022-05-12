@@ -7,10 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.0.3",
-    "autoprefixer": "^10.4.4",
+    "@nuxtjs/tailwindcss": "^5.0.4",
+    "autoprefixer": "^10.4.7",
     "nuxt": "3.0.0-rc.1",
-    "postcss": "^8.4.12"
+    "postcss": "^8.4.13"
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.4",
