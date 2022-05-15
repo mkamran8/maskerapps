@@ -38,5 +38,7 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
+The application can also be run inside a docker container using the Dockerfile. Please note that it only covers the production use case.
+
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
