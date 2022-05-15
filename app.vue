@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const menus = [{text: "Home", route:"/"}, {text: "Apps", route:"/Apps"}, {text: "Contact Us", route: "/contact-us"}]
+  const menus = [{text: "Home", route:"/"}, {text: "Apps", route:"/apps"}, {text: "Contact Us", route: "/contact-us"}]
   let activeMenu = useState('activeMenu', () => 'Home')
   let currentYear = new Date().getFullYear()
   
