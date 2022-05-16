@@ -54,7 +54,7 @@ async function onSubmit()
                     <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-first-name">
                         First Name
                     </label>
-                    <input v-model="firstName" class="appearance-none block w-full  text-slate-800 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" >
+                    <input v-model="firstName" class="appearance-none block w-full  text-slate-800 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" required>
                     <p class="text-red-500 text-xs italic">Please fill out this field.</p>
                 </div>
                 <div class="w-full md:w-1/2 px-3">
@@ -69,7 +69,7 @@ async function onSubmit()
                     <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-password">
                         E-mail
                     </label>
-                    <input v-model="email" class="appearance-none block w-full  text-slate-800 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
+                    <input v-model="email" class="appearance-none block w-full  text-slate-800 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" required>
                 
                 </div>
             </div>
@@ -78,7 +78,7 @@ async function onSubmit()
                     <label class="block uppercase tracking-wide text-slate-800 text-xs font-bold mb-2" for="grid-password">
                         Message
                     </label>
-                    <textarea v-model="message" class=" no-resize appearance-none block w-full  text-slate-800 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>                
+                    <textarea v-model="message" class=" no-resize appearance-none block w-full  text-slate-800 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message" required></textarea>                
                 </div>
             </div>
             <div class="md:flex md:items-center">
