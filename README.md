@@ -1,5 +1,7 @@
 # Development Agency Website Template using Nuxt 3 and Tailwind.
 
+![Home Page](maskerapps-home-screenshot.png?raw=true "Home Page")
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
