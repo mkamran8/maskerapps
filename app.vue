@@ -29,7 +29,7 @@
             <li v-for="menu in menus"
               class="font-medium text-md"
             >
-              <router-link :to="menu.route" class="hover:text-red py-3" v-on:click="changeActive(menu.text)"
+              <router-link :to="menu.route" class="hover:text-red py-3 inline-block" v-on:click="changeActive(menu.text)"
               :class="(activeMenu === menu.text) ? 'border-b-2 border-red' : ''"
               >
                 {{menu.text}}
