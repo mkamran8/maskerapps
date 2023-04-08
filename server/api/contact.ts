@@ -11,7 +11,7 @@ export default defineEventHandler(async (event) => {
         }
     })
     //TODO: Add Validation
-    const body = await useBody(event)
+    const body = await readBody(event)
 
     const messageInfo = await transporter.sendMail({
         from: process.env.SMTPFROMUSER,
